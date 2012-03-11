@@ -1,0 +1,1 @@
+gpib-devices>=0.0.5
