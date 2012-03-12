@@ -328,7 +328,7 @@ class PM2534(generic488.Device488):
         Return:
             Float value; current meter reading.
         """
-        return float(self.read())
+        return float(self.read_resp())
 
     def start(self):
         """Start a measurement."""
